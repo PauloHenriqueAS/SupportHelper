@@ -1,0 +1,19 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dados locais do app (ficam em %APPDATA%/SupportHelper, mas por garantia)
+*.log
